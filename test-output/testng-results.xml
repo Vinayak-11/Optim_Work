@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[user Login Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Task Completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55720" started-at="2024-03-08T17:11:53 IST" finished-at="2024-03-08T17:12:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55720" started-at="2024-03-08T17:11:53 IST" finished-at="2024-03-08T17:12:48 IST">
+      <class name="Test_Case.Task_2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Test_Case.Task_2@67b92f0a]" name="launchBrowser" is-config="true" duration-ms="36143" started-at="2024-03-08T17:11:53 IST" finished-at="2024-03-08T17:12:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user Login Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:Test_Case.Task_2@67b92f0a]" name="testCase" duration-ms="11912" started-at="2024-03-08T17:12:29 IST" finished-at="2024-03-08T17:12:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Test_Case.Task_2@67b92f0a]" name="logout" is-config="true" duration-ms="7614" started-at="2024-03-08T17:12:41 IST" finished-at="2024-03-08T17:12:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Task Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Test_Case.Task_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
